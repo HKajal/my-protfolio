@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 1, 37);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 2, 84);
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 30px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 17px;
+}
+nav ul li a:hover{
+    color: rgb(129, 129, 238);
+}
+.left{
+    font-size: 30px;
+    /* border: 1px solid red; */
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.first > div{
+    width: 40%;
+}
+.leftsection{
+    /* background-color: red; */
+    font-size: 35px;
+    margin: 110px 0;
+}
+.leftsection .btns{
+    padding: 25px 0;
+}
+.leftsection .btn{
+    background-color: rgba(62, 34, 113, 0.286);
+    padding: 12px;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin: 10px 0; */
+}
+.rightsection img{
+    width: 80%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.purple{
+    color: rgb(133, 81, 182);
+}
+
+#element{
+    color: rgb(133, 81, 182);
+}
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+}
+.second h1{
+    font-size: 25px;
+}
+main hr{
+    border: 0;
+    background-color: rgb(96, 96, 212);
+    height: 0.25px;
+    margin: 0 80px;
+}
+
+
+/* about section */
+
+#about{
+    width: 95%;
+    height: auto;
+    margin: 60px 30px;
+}
+#contact{
+    width: 99.9%;
+    height: auto;
+    margin: 60px 0;
+}
+.uperdiv{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 5px 5px 20px rgb(38, 38, 127);
+}
+.uperdiv .head{
+    height: 400px;
+    width: 30%;
+    margin: 20px 30px;
+}
+.uperdiv .head img{
+    width: 100%;
+    height: 100%;
+}
+.upersection{
+    height: auto;
+    width: 65%;
+    margin: 10px;
+}
+.upersection h1{
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    text-shadow: 1px 1px 3px;
+    color: rgb(249, 241, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upersection .u1{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 30px;
+    color: rgb(123, 61, 182);
+}
+.upersection .u2{
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uperdiv .conhead{
+    border-right: 2px solid rgba(144, 144, 220, 0.081);;
+    font-size: 40px;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.uperdiv .details{
+    width: 70%;
+    height: 400px;
+    display: block;
+}
+.uperdiv .details .info{
+    font-size: 20px;
+    padding: 70px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(144, 144, 220);
+}
+.uperdiv .details .icon{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.uperdiv .details .icon a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@media  screen and (min-width:0px) and (max-width:570px){
+    nav ul li{
+        margin: 10px;
+    }
+    .first{
+        display: block;
+        margin: 10px 0px;
+        border: 2px solid red;
+        align-items: center;
+    }
+    .leftsection{
+        font-size: 30px;
+        border: 2px solid green;
+        margin: 30px auto;
+        width: auto;
+    }
+}
